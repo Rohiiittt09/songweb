@@ -1,0 +1,579 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+    
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+     font-family: "Roboto", sans-serif;
+   
+}
+.main{
+    display: flex;gap: 6px;
+}
+.left{
+    width: 28vw;height: 100vh;border: 2px solid black;position: sticky;top: 60px;
+}
+.right{
+    width: 72vw;height: 80vh; display: flex;flex-direction: column;overflow-y: scroll;scrollbar-width: none;
+}
+.nav{
+    height: 60px;width: 100vw;border: 2px solid; position: sticky;top: 0;z-index: 10;background-color:black; gap: 20%;
+    display: flex; display: flex;justify-content: center;align-items: center; text-align: center; gap: 20%;
+}
+.nav1{
+    width: 50%; border: 2px solid;
+}
+.nav1 button{
+    width: 38px;height: 38px; border-radius: 50%;text-align: center;background-color: #1f1f1f;border: #1f1f1f
+ solid;
+}
+.nav1 button img{width: 25px;height: 25px;
+}
+.nav1{
+    display: flex; gap: 10px; width: 40%;justify-content: center;align-items: center;
+}
+.search{
+
+    border: 2px solid ;display: flex; height: 25px;border-radius:30px ; width: 80%; margin-top: px;background-color: #1f1f1f;height: 30px;
+    padding: 10px;
+}
+.search img{
+    width: 20px;
+}
+.search input{
+    width:85%; background-color:#1f1f1f ; border: none; font-size: 14px;padding-left: 5px;border-right: 2px solid white;margin-right: 12px;
+}
+
+.nav2{
+    width: 40%;  display: flex; height: 100%;align-items: center;
+}
+.nav22{
+    display: flex;width: 50%; justify-content: space-around;
+}
+.inst{
+    display: flex;  font-size: 14px;gap: 3px;
+}
+.nav21{
+    width: 40%;border-right: 2px solid white;display: flex;gap: 20px; height: 60%;align-items: center;
+}
+.inst img{
+    width: 14px
+    ;
+}
+.nav a{
+    text-decoration: none; color: rgb(179, 179, 179)
+;font-weight: 700;
+}
+.login{
+    background-color: white;font-size: 16px;font-weight: 700;border-radius: 24px; height: 50px;width: 30%;text-transform: capitalize;cursor: pointer;
+}
+.inver{
+    filter: invert(1);
+}
+.logo{
+    position: relative;
+}
+.nav22{
+        height: 100%;display: flex;align-items: center; ;width: 60%;text-transform: capitalize;
+}
+body{
+    text-transform: capitalize; background-color: black;
+}
+.left{
+    background-color: #121212; color: rgb(255, 255, 255); height: 80vh;border-radius: 15px;
+
+}
+.left1{
+     display: flex; font-size: 16px; justify-content: space-between;height: 65px; align-items: center; font-weight: 700;padding: 15px;position: sticky;top: 0;
+}
+.left1 button{
+    background-color:#121212 ;color: rgb(255, 255, 255);font-size: 16px;width: 25px;border-radius: 50%;border: 2px solid #121212;
+}
+.left2{
+    display: flex;flex-direction: column;justify-content: space-around;
+}
+.leftbox{
+    display: flex;flex-direction: column;background-color: #1f1f1f;margin: 10px;border-radius: 10px;justify-content: space-around;padding-left: 10px;color: rgb(255, 255, 255) ;height: 19vh
+;}
+.leftbox button{
+    font-size: 16px ;font-weight: 700;color: black;background-color: white; width: 35%;height: 40px; border-radius: 30px;border: solid white;
+    }
+    .leftbox h3{
+        font-size: 16px;font-weight: 700;
+    }
+
+.leftbox h4{
+    font-size: 14px ;font-weight: 400;
+}
+.left3{
+   display: flex;flex-wrap: wrap;;align-items: center;gap: 30px;width: 85%;margin: auto;margin-top: 30px;
+}
+.left3 a{
+    font-size: 11px ;color: rgb(179, 179, 179);font-weight: 400;text-decoration: none;text-transform: capitalize;
+}
+.cooki{
+    width: 85%;margin: auto;margin-top: 15px;
+}
+.cooki a{
+    font-size: 12px;color:rgb(255, 255, 255)
+ ;font-weight: 400;text-decoration: none;text-transform: capitalize;
+}
+.btn-lan{
+    width: 20%; width: 85%;margin: auto; height: 30px;
+}
+.btn-lan button{
+    background-color:#1f1f1f ; width: 25%;display: flex;justify-content: space-around;align-items: center; color: white;height: 100%;border-radius: 40px;border:1px solid white;margin-top: 5%;cursor: pointer;
+}
+.btn-lan button img{
+    width: 20px;
+}
+.btn-lan button h3{
+    font-size: 14px;font-weight: 700; text-transform: capitalize;
+}
+.leftouter{
+    height: 50%;overflow-y: scroll;scrollbar-width: none;
+}
+.right{
+    background-color: #222222; border-radius: 15px;display: flex;flex-direction: column;gap: 80px;
+}
+.trending{
+    color: rgb(255, 255, 255);width: 100%; margin-top: 20px;height: 55%;
+}
+.trending-h{
+    width: 90%;display: flex;justify-content: space-between;align-items: end;margin: auto;
+}
+.trending-h h1{
+    font-size: 24px;
+}
+.trending-h p{
+    font-size: 14px;
+}
+.songcard{
+    width: 188px;height: 250px; display: flex;flex-direction: column;justify-content: start; gap: 5px; padding-left: 20px;border-radius: 5px;position: relative;
+    cursor: pointer;
+}
+.alltrendsongs{
+    display: flex; justify-content: center;width: 1000px;width: 200%; justify-content: center; gap: 20px;
+}
+.trending-song{
+   margin-top: 10px;width: 100%;overflow-x:scroll ;scrollbar-width: none;}
+
+.songcard img{
+    width: 90%; height: 160px; border-radius: 5px;
+}
+.songcard h2{
+    font-size: 16px;
+}
+.songcard p{
+    font: 14px;
+}
+.songcard:hover{
+    background-color: #1f1f1f;
+}
+.play{
+    width: 40px;z-index: 11;position: absolute;bottom: 95px;right: 20px; display: none;border-radius: 100%;background-color: rgb(30, 215, 96);height: 40px;align-items: center;justify-content: center
+    ;cursor: pointer;
+}
+.play img{
+    width: 20px;height: 20px
+}
+.art-h{
+    color:white;
+}
+.artist img{
+    border-radius: 50%;
+}
+.artist{
+    color:rgb(255, 255, 255) ;
+}
+.allartist a{
+    text-decoration: none;color:rgb(255, 255, 255);display: flex;flex-direction: column;justify-content: center;align-items: center;
+}
+.allartist{
+     display: flex;justify-content: space-around;
+}
+.right{
+    position: relative;
+}
+.playbar{
+    position: sticky;bottom: 0;width: 100%;background-color:rgb(55, 58, 56) ;z-index: 12;display: flex;justify-content: center;align-items: center;flex-direction: column;gap: 10px;}
+.playbutton{
+       display: flex;justify-content: center;align-items: center;gap: 25px;
+    }
+.playy{
+    width: 30px;
+}
+.previos{
+    transform: rotate(180deg);
+}
+
+.songlist{
+    display: flex;flex-direction: column;gap: 10px;
+}
+.left-songcard{
+    border: 1px solid;display: flex;height: 50px;justify-content: space-around; font-size: 16px; width: 80%;margin: auto; border-radius: 5px;
+}
+.song-img{
+width: 15%; display: flex;justify-content: center;
+}
+.song-img img{
+    filter: invert(1);width: 20px;
+}
+.songname h3{
+    font-size: 12px; font-weight: 700;
+}
+.songname p{
+    font-size: 10px; font-weight: 400;
+}
+.songname{
+    display: flex;flex-direction: column;justify-content: center;align-items: center; width: 30%;overflow: hidden;gap: 2px;
+}
+.songplay{
+    display: flex;justify-content: center;align-items: center; font-size: 10px;width: 30%;
+}
+.songplay img{
+    width: 20px; filter: invert(1);
+}
+.song-time{
+    width: 100%; padding-bottom: 20px;
+}
+.stick{
+    width: 100%;height: 5px;background-color: aliceblue;border-radius: 50%; display: flex;align-items: center;position: relative;cursor: pointer;
+}
+.circle{
+    height: 25px;width: 25px;border-radius: 100%; background-color: black;position: absolute;left: 0;transition: all 1s;
+}
+.left-songcard:hover{
+    cursor: pointer;scale: 1.1;
+}
+.playbar{
+   justify-content: space-between;align-items: center;display: flex;flex-direction: column; 
+}
+.song-time{
+    position: relative;bottom: 0;
+}
+.play-bar{
+    display: flex; width: 100%;justify-content: space-between; align-items: center; 
+}
+.song-info{
+    width: 200px;overflow: hidden;height: 20px;scrollbar-width: none; display: flex;justify-content: center;font-size: 14px;
+
+}
+.arrow{
+    display: none;
+}
+.songduration{
+    width: 200px;
+}
+.search{
+    height: 100%;
+}
+@media (max-width:1020px){
+    .main{
+        position: relative;
+    }
+    .nav21{
+        display: none;
+    }
+    html{
+        width: 100%;object-fit: cover;height: 100vh;overflow: auto;
+    }
+    body{
+        width: 100%;height: 100vh;object-fit: contain;margin: 0;padding: 0;overflow-x: hidden;
+    }
+    .left{
+        position: absolute;left: -300px;z-index: 15;width: 70%;top: 0;height: 90%;
+    }
+    .right{
+        width: 100vw; height: 90vh;
+    }
+    .nav{
+        width: 100vw;font-size: 8px; height: 50px; display: flex;justify-content: center;align-items: center;gap: 5px;
+    }
+    .nav1{
+        width: 55%;display: flex;justify-content: space-between;
+    }
+    .search {
+        width: 70%;font-size: 10px; height: 60%;
+    }
+    .nav2{
+        overflow-x: scroll;width: 50%;
+    }
+    .inver{
+        width: 15px;
+    }
+    .nav1 button{
+        width: 30px;height: 30px;
+    }
+    .search input{
+        ;font-size: 10px; 
+    }
+    .logo{
+        width: 25px;
+    }
+    .arrow{
+        display: flex;
+    }
+    .arrow button{
+        background-color: rgb(34, 34, 34); ;color:  white ;border: none;position: absolute;z-index: 11;top: 50%; font-size: 30px;font-weight: 100;
+    }
+    .right{
+        padding-top: 0;position: relative;
+    }
+    .arrow{
+        position: absolute;z-index: 11;top: 35%;display: flex;justify-content: center;left: 50%;
+    }
+    .arrow:hover{
+        scale: 1.1;
+    }
+    arrow button{
+        background-color: rgb(34, 34, 34); ;color:  white ;border: none;position: absolute;z-index: 11;top: 50%; font-size: 30px;font-weight: 100;
+    }
+    .right{
+        padding-top: 0;position: relative;
+    }
+    .arrow{
+        position: absolute;z-index: 11;top: 40%;display: flex;justify-content: center;left:105%;transition: all 2s;backface-visibility: hidden;font-size: 50px;
+    }
+    .arrow:hover{
+        scale: 1.1;
+    }
+    .left{
+        position: absolute;left: -300px;z-index: 15;width: 300px;top: 0;height: 95%;
+    transition: all 2s;}
+    .btn-lan button img{
+            width: 10px;
+        }
+        .left1 h4{
+            font-size: 12px;
+        }
+        
+        .leftbox{
+            height: 80px;font-size: 12px;;
+        }
+        .leftbox h3{
+            font-size: 12px;
+        }
+        .leftbox h4{
+            font-size: 8px;
+        }
+        .leftbox button{
+            font-size: 12px; height: 20px;width: 100px;
+        }
+        .btn-lan button h3 {
+            font-size: 12px;
+        }
+        .nav22{
+        width: 100%;display: flex;justify-content: sp;
+
+    }
+    .nav22 a{
+        font-size: 16px;
+    }
+}
+.vol{
+    display: flex;justify-content: center;align-items: center; 
+}
+.volll{
+    display: flex;justify-content: space-between; align-items: center;  padding-left: 20px;padding-right: 20px;}
+.voll{
+    display: flex;justify-content: space-between;gap: 10px;
+}
+
+.playbar{
+  height: 80px
+}
+.spopl{
+    width: 1300px;
+}
+
+@media (max-width:800px) {
+    .nav2{
+        width: 50%;
+    }
+    .nav22 a{
+        font-size: 10px;
+    }
+    .nav21{display: none;}
+    .nav22{
+        width: 100%;display: flex;justify-content: sp;
+
+    }
+    
+    .inst a{
+        font-size: 10px;font-weight: 400;display:none;
+    }
+    .nav1{
+        width: 60%;
+    }
+    .nav22 button{
+        font-size: 12px;height: 70%;width: 40%;
+    }
+    .search {
+        height: 50%;width: 60%; display: flex;justify-content: space-between;
+    }
+    .search .br {
+        display: none;
+    }
+    .search input{
+        width: 100%; border: none;overflow: auto;height: 60%;
+    }
+    .search img{
+        width: 8px;
+    }
+    .right{
+
+    }
+    .trending-h h1{
+        font-size: 12px;
+    }
+    .trending-h p{
+        font-size: 8px;
+    }
+    
+    
+    .songcard{
+        width: 150px ;height: 150px; font-size: 12px ; display: flex;flex-direction: column;align-items: center;padding-right: 10px;
+    }
+    
+     .songcard  img{
+        width: 100px;height: 100px;
+    }
+    .songcard h2{
+        font-size: 8px;
+    }
+    .songcard p{
+        font-size: 6px;
+    }
+    .play{
+        width: 40px;height: 40px;background-color: rgb(30, 215, 96);border-radius: 50%;top: 40%;right: 0%;
+    }
+    .play img{
+        width: 20px;height: 20px;
+    }
+    .art-h h2{
+        font-size: 12px; 
+    }
+    .artist{
+         height: 200px;
+    }
+    .right{
+       display: flex;flex-direction: column;
+    }
+    
+    .playbutton img{
+        width: 20px;
+    }
+    .songduration{
+       font-size: 10px; display: flex;justify-content: center;
+    }
+    .playbar{
+       z-index: 20;
+    }
+    .song-info{
+        font-size: 12px;
+    }
+    .play-bar{
+        width: 100%;display: flex;justify-content: space-around;}
+    .arrow button{
+        background-color: rgb(34, 34, 34); ;color:  white ;border: none;position: absolute;z-index: 11;top: 50%; font-size: 30px;font-weight: 100;
+    }
+    .right{
+        padding-top: 0;position: relative;
+    }
+    .arrow{
+        position: absolute;z-index: 11;top: 40%;display: flex;justify-content: center;left:105%;transition: all 2s;backface-visibility: hidden;font-size: 50px;
+    }
+
+    .arrow:hover{
+        scale: 1.1;
+    }
+    .left{
+        position: absolute;left: -255px;z-index: 15;width: 255px;top: 0;height: 95%;
+    transition: all 2s;}
+        .btn-lan button h3{
+            font-size: 10px;
+        }
+        .btn-lan{
+            width: ;
+        }
+        .btn-lan button img{
+            width: 10px;
+        }
+        .left1 h4{
+            font-size: 12px;
+        }
+        
+        .leftbox{
+            height: 80px;font-size: 12px;;
+        }
+        .leftbox h3{
+            font-size: 12px;
+        }
+        .leftbox h4{
+            font-size: 8px;
+        }
+        .leftbox button{
+            font-size: 12px; height: 20px;width: 100px;
+        }
+        .left3 a{
+            font-size: 10px;
+        }
+        .left-songcard{
+            height: 50px; font-size: 12px
+        }
+        .song-img{
+            width: 50px;
+        }
+        .songname h3{
+            font-size: 8px 
+        }
+        .songname p{
+            font-size: 6px;
+        }
+        .songplay h3{
+            font-size: 8px;
+        }
+        .songplay img{
+            width: 14px;
+        }
+        .songname{
+            display: flex;flex-direction: column;align-items: center;
+        }
+        
+        .btn-lan{
+            position: absolute;bottom:  50px;right: -50px;
+        }
+        .song-info{
+            font-size: 8px; display: flex;justify-content: center;align-items: center;
+        }
+        .volll img{
+            width: 20px;
+        }
+        .vol input{
+            width: 100px;height: 5px; display: flex;align-items: center;justify-content: center;
+        }
+        .vol{
+            display: flex;align-items: center;justify-content: center;gap: 2px;
+        }
+        .spopl{ width: 900px;
+            padding: 0;margin: 0;display: flex;align-items: center;justify-content: center; gap: 10px; padding-left: 0;padding-right: 0;width: 300px; 
+        }
+        
+}
+.vol input{
+    cursor: pointer;
+}   
+@media (max-width:720px){
+    .alltrendsongs{
+        width: 1200px;
+    }
+    .spopl{
+        width: 900px;
+    }
+}
+.previos,.playy,.next{cursor: pointer;}
+
